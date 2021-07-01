@@ -38,7 +38,7 @@ class AddForm extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="column">
         {this.state.openedForm ? (
           <form onSubmit={this.handleFormSubmit}>
             <label>Name:</label>
@@ -68,14 +68,14 @@ class AddForm extends Component {
               onChange={(e) => this.handleChange(e)}
             />
 
-            <button onClick={()=>this.oppenedForm}>Submit</button>
+            <button onClick={() => this.oppenedForm}>Submit</button>
           </form>
         ) : null}
       </div>
     );
 
-    // form will be added here!
-  }
+    }
 }
+
 
 export default AddForm;

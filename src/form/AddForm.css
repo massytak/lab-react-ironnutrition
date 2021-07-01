@@ -1,5 +1,5 @@
 div{
-   margin: auto;
+   margin: 10px auto;
 }
 form{
     display: flex;
@@ -8,4 +8,7 @@ form{
     border: 1px solid black;
     padding: 10px;
     margin: 2em auto;
+}
+ul{
+    list-style: disc;
 }
